@@ -78,7 +78,7 @@ const photoReveal =
 
 function setRecipientName() {
 
-    document.title = `Happy Birthday ${Bhayia❤️}`;
+    document.title = `Happy Birthday ${RECIPIENT_NAME}`;
 
     const introName = document.getElementById("introName");
 
@@ -99,6 +99,8 @@ function setRecipientName() {
 }
 
 setRecipientName();
+
+
 
 
 /* =========================================================
