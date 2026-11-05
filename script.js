@@ -78,53 +78,25 @@ const photoReveal =
 
 function setRecipientName() {
 
-    document.title =
-        `Happy Birthday ${Bhayia} ❤️`;
+    document.title = `Happy Birthday ${Bhayia❤️}`;
 
+    const introName = document.getElementById("introName");
 
-    const introName =
-        document.getElementById(
-            "Big"
-        );
-
-
-    const finalName =
-        document.getElementById(
-            "Bro"
-        );
-
+    const finalName = document.getElementById("finalName");
 
     if (introName) {
-
-        introName.textContent =
-            Bhayia;
-
+        introName.textContent = RECIPIENT_NAME;
     }
-
 
     if (finalName) {
-
-        finalName.textContent =
-            Bhayia;
-
+        finalName.textContent = RECIPIENT_NAME;
     }
 
-
-    document
-        .querySelectorAll(
-            ".recipient-name"
-        )
-        .forEach(
-            element => {
-
-                element.textContent =
-                    Bhayia;
-
-            }
-        );
+    document.querySelectorAll(".recipient-name").forEach(element => {
+        element.textContent = RECIPIENT_NAME;
+    });
 
 }
-
 
 setRecipientName();
 
