@@ -78,22 +78,22 @@ const photoReveal =
 
 function setRecipientName() {
 
-    document.title = `Happy Birthday ${RECIPIENT_NAME}`;
+    document.title = `Happy Birthday ${Bhayia}`;
 
     const introName = document.getElementById("introName");
 
     const finalName = document.getElementById("finalName");
 
     if (introName) {
-        introName.textContent = RECIPIENT_NAME;
+        introName.textContent = Bhayia;
     }
 
     if (finalName) {
-        finalName.textContent = RECIPIENT_NAME;
+        finalName.textContent = Bhayia;
     }
 
     document.querySelectorAll(".recipient-name").forEach(element => {
-        element.textContent = RECIPIENT_NAME;
+        element.textContent = Bhayia;
     });
 
 }
